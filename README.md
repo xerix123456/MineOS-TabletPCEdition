@@ -1,10 +1,10 @@
 ![](https://i.imgur.com/Ki5bX0I.gif)
 
-English | [中文(简体)](https://github.com/IgorTimofeev/MineOS/blob/master/README-zh_CN.md) | [Русский](https://github.com/IgorTimofeev/MineOS/blob/master/README-ru_RU.md)
+English
 
 ## About
 
-MineOS is a GUI based operating system for the OpenComputers Minecraft mod. It has extensive customisation abilities as well as an app market to publish your creations among the OS community. For developers there is wonderful [illustrated wiki](https://github.com/IgorTimofeev/MineOS/wiki) with lots of code examples. List of main features:
+MineOS TabletPC Edition is a GUI based operating system for the OpenComputers Minecraft mod. It has extensive customisation abilities as well as an app market to publish your creations among the OS community. For developers there is wonderful [illustrated wiki](https://github.com/IgorTimofeev/MineOS/wiki) with lots of code examples. List of main features:
 
 -   Multitasking
 -   Double buffered graphical user interface
@@ -21,11 +21,8 @@ MineOS is a GUI based operating system for the OpenComputers Minecraft mod. It h
 
 ## How to install?
 
-The easiest way is to use default `pastebin` script. Insert an OpenOS floppy disk and an Internet Card into the computer, turn it on and type the following command to console to install MineOS:
 
-	pastebin run PDE3eVsL
-
-If for some reason pastebin website is not available to you, use alternative installation command:
+Easiest way to install MineOS TabletPC Edition is with wget:
 
 	wget -f https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/Installer/OpenOS.lua /tmp/installer.lua && /tmp/installer.lua
 
